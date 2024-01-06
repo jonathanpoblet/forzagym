@@ -10,10 +10,27 @@ export default function AboutUs() {
         <h2>
           ELEGÍ FORZA<span>GYM</span>
         </h2>
-        <h4>
-          Te brindamos las mejores condiciones para que puedas cumplir tus
-          objetivos
-        </h4>
+        <div className='aboutUs-info'>
+          <p className='aboutUs-info-text'>
+            En <span>Forza</span>GYM, creemos que el entrenamiento no solo
+            mejora nuestro rendimiento, sino que también fortalece nuestros
+            vínculos. Buscamos que nuestros miembros se sientan a gusto y, sobre
+            todo, disfruten de su experiencia de <span>ejercicio.</span>
+          </p>
+          <p className='aboutUs-info-text'>
+            Alcanzar tu máximo <span>potencial</span> no es un viaje solitario.
+            Las conexiones y relaciones que establecemos en nuestras clases y
+            con nuestros entrenadores nos transforman en algo más que un simple
+            gimnasio.
+          </p>
+          <h3 className='aboutUs-info-subtitle'>
+            SOMOS UNA <span>COMUNIDAD.</span>
+          </h3>
+          <h4>
+            Te brindamos las mejores condiciones para que puedas cumplir tus
+            objetivos
+          </h4>
+        </div>
 
         <div className='aboutUs-article-container'>
           <div className='aboutUs-article-container-points'>
