@@ -21,6 +21,7 @@ export default function Home() {
         src2='./assets/gym/gym1.png'
         src3='./assets/gym/gym1.png'
       />
+      <Phrase phrase='La disciplina es el único puente entre tus metas y tus logros' />
     </main>
   );
 }
