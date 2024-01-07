@@ -1,12 +1,25 @@
+import { useEffect } from 'react';
 import { FaBookOpen } from 'react-icons/fa';
 import { FaPerson } from 'react-icons/fa6';
 import { CgGym } from 'react-icons/cg';
 import './aboutUs.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function AboutUs() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='aboutUs'>
-      <article className='aboutUs-article'>
+      <article
+        className='aboutUs-article'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <h2>
           ELEGÍ FORZA<span>GYM</span>
         </h2>
