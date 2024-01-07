@@ -14,6 +14,7 @@ export default function Home() {
         para alcanzar tus metas'
       />
       <AboutUs />
+      <Phrase phrase='Un mes lleno de disciplina puede llevarte más lejos que un año lleno de excusas' />
     </main>
   );
 }
