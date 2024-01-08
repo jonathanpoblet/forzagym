@@ -5,6 +5,7 @@ import Gym from '../../Components/Gym/Gym';
 import Phrase from '../../Components/Phrase/Phrase';
 
 import './home.css';
+import Plans from '../../Components/Plans/Plans';
 
 export default function Home() {
   return (
@@ -16,12 +17,9 @@ export default function Home() {
       />
       <AboutUs />
       <Phrase phrase='Un mes lleno de disciplina puede llevarte más lejos que un año lleno de excusas' />
-      <Gym
-        src1='./assets/banner/banner.jpg'
-        src2='./assets/gym/gym1.png'
-        src3='./assets/gym/gym1.png'
-      />
+      <Plans />
       <Phrase phrase='La disciplina es el único puente entre tus metas y tus logros' />
+      <Gym src1='./assets/banner/banner.jpg' src2='./assets/gym/gym1.png' src3='./assets/gym/gym1.png' />
     </main>
   );
 }
