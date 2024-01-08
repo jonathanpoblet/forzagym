@@ -5,11 +5,7 @@
   align-items: center;
   width: 100%;
   background: rgb(57, 57, 57);
-  background: radial-gradient(
-    circle,
-    rgba(57, 57, 57, 1) 0%,
-    rgba(19, 19, 19, 1) 100%
-  );
+  background: radial-gradient(circle, rgba(57, 57, 57, 1) 0%, rgba(19, 19, 19, 1) 100%);
   padding-top: 100px;
 }
 
@@ -36,14 +32,13 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1200px;
   margin-top: 20px;
   margin-bottom: 100px;
 }
 
 .gym-container-img {
-  width: 700px;
-  margin: 30px;
+  width: 100%;
+  margin: 30px 0px;
   border: none;
   border-radius: 5px;
   box-shadow: 4px 4px 10px 4px rgb(29, 29, 29);

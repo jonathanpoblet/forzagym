@@ -25,7 +25,6 @@ export default function Gym() {
       </p>
       <article className='gym-container' data-aos='fade-up' data-aos-offset='200' data-aos-easing='ease-in-sine' data-aos-duration='600'>
         <img className='gym-container-img' src='./assets/gym/gym1.png' />
-        <img className='gym-container-img' src='./assets/gym/gym2.png' />
       </article>
     </section>
   );
