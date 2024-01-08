@@ -76,11 +76,12 @@
   border: none;
   border-radius: 5px;
   margin-top: 30px;
-  transition: 0.5s;
+  margin-bottom: 20px;
+  transition: 0.5s !important;
 }
 
 .plans-consultar:hover {
-  opacity: 0.5;
+  background-color: #f5bc00be;
 }
 
 @media screen and (max-width: 1100px) {

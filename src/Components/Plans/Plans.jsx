@@ -26,7 +26,7 @@ export default function Plans() {
           <button className='plans-container-card-button'>FUNCIONAL</button>
         </div>
       </div>
-      <button className='plans-consultar' data-aos='fade-up' data-aos-offset='50' data-aos-easing='ease-in-sine' data-aos-duration='600'>
+      <button data-aos='fade-up' data-aos-offset='50' data-aos-easing='ease-in-sine' data-aos-duration='600' className='plans-consultar'>
         Consultar
       </button>
     </section>
