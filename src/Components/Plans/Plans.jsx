@@ -5,7 +5,7 @@ import './plans.css';
 
 export default function Plans() {
   const handleClick = message => {
-    window.open(`https://api.whatsapp.com/send?phone=1130565913&${message}`, '_blank');
+    window.open(`https://api.whatsapp.com/send?phone=1140699998&${message}`, '_blank');
   };
   useEffect(() => {
     AOS.init();
