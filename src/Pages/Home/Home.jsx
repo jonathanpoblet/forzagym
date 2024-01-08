@@ -6,6 +6,7 @@ import Phrase from '../../Components/Phrase/Phrase';
 
 import './home.css';
 import Plans from '../../Components/Plans/Plans';
+import Footer from '../../Components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Plans />
       <Phrase phrase='La disciplina es el único puente entre tus metas y tus logros' />
       <Gym src1='./assets/banner/banner.jpg' src2='./assets/gym/gym1.png' src3='./assets/gym/gym1.png' />
+      <Footer phrase='©2024 CopyRight ForzaGym' />
     </main>
   );
 }

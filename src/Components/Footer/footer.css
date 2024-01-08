@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  padding: 10px 0px;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1520px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    font-size: 14px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer {
+    font-size: 12px;
+    width: 330px;
+  }
+}
